@@ -1,0 +1,24 @@
+// -------- Array in shell script
+
+// arrname=( value1 value2 value3 ) -- use to declare array in shell. values should be seperated by space.
+// ${arrname[indexNo]}  -- use to access the particular index value of the array.
+// ${arrname[*]}  -- use to access all the value of the array at the same time.
+// ${arrname[*]:startindex:NumberOfElement}  -- used to access the particular range element.
+// ${#arrname[*]} -- to get the length of the array.
+
+// we can use array as key value pair
+// declare -A arrName -- to declare array
+// arrName=( [a]=12 [b]=13 [c]=14 [d]=15)  -- assign the value
+// echo "${arrName[a]}  -- to print the value of key
+
+
+
+
+//-------------------- String in shell script
+// mystr="hey buddy, how are you" -- define string
+// ${#mystr} -- to print length of string
+// ${mystr^^} -- convert string into upper case
+// ${mystr,,} -- convert string into lower case
+// ${mystr/replaceWord/replaceWith} -- used to replace the string 
+// ${mystr:startIndex:Length}  -- used to slice the string from startindex to length.
+
